@@ -1,740 +1,336 @@
-Open sidebar
-
-ChatGPT 4o
-
-You said:
-how to create my own website and host it
-ChatGPT said:
-Creating and hosting your own website involves several steps. Here’s a step-by-step guide:
-
-Step 1: Plan Your Website
-Define your website's purpose (portfolio, blog, e-commerce, etc.).
-Sketch a rough layout of your site (home page, about page, contact page, etc.).
-Choose a domain name (e.g., yourwebsite.com).
-Step 2: Build Your Website
-There are two main approaches:
-
-A) Using a Website Builder (Easiest)
-Platforms like Wix, Squarespace, WordPress.com, or Shopify allow you to create a site without coding.
-Drag-and-drop tools make it beginner-friendly.
-Hosting is usually included.
-B) Coding It Yourself (More Control)
-If you want more customization, you can build your website from scratch using:
-
-HTML (Structure)
-CSS (Styling)
-JavaScript (Interactivity)
-Use frameworks like Bootstrap (for easy styling) or React.js (for dynamic sites).
-Example: Basic HTML Website
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; }
-    </style>
-</head>
-<body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple website.</p>
-</body>
-</html>
-Save this as index.html and open it in a browser.
-Step 3: Choose a Hosting Provider
-Hosting is where your website files will be stored so others can access them online.
-
-Free Hosting Options (for simple projects)
-
-GitHub Pages (for static sites)
-Netlify (for front-end projects)
-Vercel (for React & Next.js projects)
-Paid Hosting Options (for serious websites)
-
-Shared Hosting: Bluehost, SiteGround, Hostinger
-VPS Hosting: DigitalOcean, Linode
-Cloud Hosting: AWS, Google Cloud, Cloudflare Pages
-Step 4: Get a Domain Name
-You can register a domain from:
-
-Namecheap
-Google Domains
-GoDaddy
-Cloudflare Registrar (cheapest, no markup)
-After purchasing, connect it to your hosting.
-
-Step 5: Deploy Your Website
-A) Upload via Hosting Provider
-If using Bluehost, Hostinger, etc., use their file manager or FTP (FileZilla) to upload files.
-
-B) Deploy via GitHub Pages (For Static Sites)
-Push your website code to a GitHub repository.
-Go to Settings > Pages in GitHub.
-Select main branch, and GitHub will host it for free.
-C) Deploy via Netlify/Vercel (For Front-End Sites)
-Link your GitHub repository to Netlify/Vercel.
-It will automatically deploy and provide a free subdomain.
-D) Deploy via cPanel (For Shared Hosting)
-Log into cPanel.
-Upload files via the File Manager or FTP.
-Point your domain to the hosting.
-Step 6: Secure & Optimize Your Website
-SSL Certificate (HTTPS): Free from Let's Encrypt (most hosting providers include this).
-SEO Optimization: Use proper headings, meta tags, and Google Search Console.
-Performance: Optimize images, use caching (Cloudflare CDN).
-Step 7: Maintain & Update
-Regularly update content and security patches.
-Monitor uptime using UptimeRobot.
-Backup your site using your hosting provider’s tools.
-Summary: Quick Steps
-Choose a method: Website builder (Wix, WordPress) or custom coding.
-Get a domain: Register on Namecheap or Google Domains.
-Pick a hosting provider: Bluehost (paid) or GitHub Pages (free).
-Develop the site: Use HTML/CSS or a CMS like WordPress.
-Deploy the site: Upload via hosting panel, GitHub, or Netlify.
-Secure and optimize: SSL, SEO, and performance tweaks.
-Would you like help with coding or deployment? 🚀
-
-You said:
-i want my website name not to have wordpress at the beginning
-ChatGPT said:
-If you want a website without "WordPress" in the name (e.g., yourwebsite.com instead of yourwebsite.wordpress.com), follow these steps:
-
-Option 1: Get a Custom Domain for WordPress
-If you're using WordPress.com, the free plan gives you a subdomain like yourwebsite.wordpress.com. To remove "WordPress" from the domain, you need to:
-
-Upgrade to a paid plan (WordPress Personal, Premium, or Business).
-Buy a custom domain (or connect one you already own).
-Map your domain in WordPress settings.
-🔹 Example: If you upgrade, you can have yourwebsite.com instead of yourwebsite.wordpress.com.
-
-Option 2: Self-Host WordPress (WordPress.org)
-If you want full control over your site without paying WordPress.com, you can use WordPress.org and host your website with a hosting provider.
-
-Steps to Self-Host WordPress:
-Buy a domain: Register a domain from Namecheap, Google Domains, GoDaddy, etc..
-Get hosting: Choose a provider that supports WordPress:
-🟢 Shared Hosting: Bluehost, SiteGround, Hostinger.
-🔵 Cloud Hosting: DigitalOcean, AWS, Cloudways.
-Install WordPress: Most hosts offer a one-click installation.
-Customize your site: Install themes, plugins, and customize your site as needed.
-Go live: Your site will be accessible via yourwebsite.com without "WordPress" in the URL.
-Option 3: Create Your Own Website Without WordPress
-If you don’t want to use WordPress at all, you can:
-
-Use a website builder (Wix, Squarespace, Webflow) with a custom domain.
-Code your own website using HTML/CSS/JavaScript and host it using:
-Free options: GitHub Pages, Netlify, Vercel.
-Paid hosting: Bluehost, DigitalOcean, AWS.
-Which Option is Best for You?
-If you want WordPress but without "WordPress" in the URL → Buy a custom domain & upgrade your plan.
-If you want full control over WordPress → Use WordPress.org and self-host.
-If you want to avoid WordPress completely → Use a different website builder or code it yourself.
-Let me know if you need help with a specific step! 🚀
-
-You said:
-i want a website builder that is free and intuitive to use and also have the name of my website as i choose it
-ChatGPT said:
-If you want a free and intuitive website builder that allows you to use your own custom domain, here are the best options:
-
-Best Free Website Builders That Allow Custom Domains
-1. GitHub Pages + Custom Domain (Best for simple static sites)
-🔹 Pros:
-
-100% free hosting forever.
-Supports custom domains.
-Great for portfolio sites, blogs, and simple projects.
-Works well with HTML, CSS, JavaScript or Jekyll (a static site generator).
-🔹 Cons:
-
-Requires basic knowledge of Git and version control.
-No built-in drag-and-drop editor.
-🔹 How to Use:
-
-Create a GitHub account and a repository.
-Upload your website files (index.html, style.css, etc.).
-Enable GitHub Pages in the repo settings.
-Connect your custom domain in the GitHub Pages settings.
-📌 Example Website: yourwebsite.com (after adding a custom domain).
-
-2. Netlify or Vercel (Best for modern front-end projects)
-🔹 Pros:
-
-Free custom domain support (e.g., yourwebsite.com).
-Easy drag & drop website deployment.
-Integrates with GitHub, GitLab, Bitbucket.
-Fast performance with a global CDN.
-🔹 Cons:
-
-No built-in drag-and-drop editor.
-Requires basic knowledge of file management.
-🔹 How to Use:
-
-Sign up at Netlify or Vercel.
-Drag & drop your website folder.
-Connect your custom domain (Netlify/Vercel provides free SSL).
-📌 Example Website: yourwebsite.com (after adding a custom domain).
-
-3. WordPress.org + Free Hosting (Best for blogs & business sites)
-🔹 Pros:
-
-Full control over customization.
-Huge library of free themes & plugins.
-You own your domain (yourwebsite.com).
-🔹 Cons:
-
-Requires free hosting (e.g., InfinityFree, AwardSpace, FreeHosting.com).
-More setup compared to drag-and-drop builders.
-🔹 How to Use:
-
-Get free hosting from InfinityFree.
-Install WordPress.org (one-click install).
-Customize with themes and plugins.
-Connect your custom domain.
-📌 Example Website: yourwebsite.com (after adding a custom domain).
-
-4. Wix Free Plan (With Limitations)
-🔹 Pros:
-
-Drag-and-drop website builder.
-No coding required.
-Good for small businesses and portfolios.
-🔹 Cons:
-
-Free plan forces Wix branding (yourwebsite.wixsite.com).
-To use a custom domain (yourwebsite.com), you must upgrade to paid.
-🔹 Best for:
-
-If you don't mind the .wixsite.com subdomain on the free plan.
-📌 Example Website: yourwebsite.wixsite.com (on free plan) or yourwebsite.com (on paid plan).
-
-5. Google Sites (Super Simple)
-🔹 Pros:
-
-100% free hosting forever.
-Easy drag-and-drop editor.
-No coding required.
-Works with Google Drive & Google Forms.
-🔹 Cons:
-
-No full control over design.
-Limited SEO & customization.
-No native e-commerce support.
-🔹 How to Use:
-
-Go to Google Sites.
-Choose a template and customize.
-Connect your custom domain via Google Domains.
-📌 Example Website: yourwebsite.com (after adding a custom domain).
-
-Which One Should You Choose?
-Website Builder	Best For	Free Custom Domain Support?	Ease of Use
-GitHub Pages	Portfolio, Static sites	✅ Yes	⚡ Moderate
-Netlify / Vercel	Modern front-end projects	✅ Yes	⚡ Easy
-WordPress.org + Free Hosting	Blogs, Business Sites	✅ Yes	📌 Moderate
-Wix (Free Plan)	Drag-and-drop websites	❌ (Needs Paid Plan)	⭐⭐⭐⭐⭐ Easy
-Google Sites	Internal / Simple Websites	✅ Yes	⭐⭐⭐⭐⭐ Very Easy
-Final Recommendation
-✅ For complete free hosting + custom domain → GitHub Pages OR Netlify.
-✅ For blogs & businesses → WordPress.org + Free Hosting.
-✅ For total beginners (but no custom domain on free plan) → Wix Free Plan.
-✅ For quick, no-code websites → Google Sites (but limited features).
-
-Need Help Setting Up?
-Let me know which platform you want to use, and I can guide you through the setup! 🚀
-
-You said:
-what is the most geeky one of these options
-ChatGPT said:
-If you want the most geeky, developer-friendly option, go for:
-
-1️⃣ GitHub Pages + Custom Domain 🖥️
-💡 Why?
-
-100% free forever
-Uses Git for version control
-You host your own HTML, CSS, JavaScript
-Can integrate Jekyll for static site generation
-No GUI—pure coding + terminal work
-Great for developers, portfolios, and personal projects
-How to Set It Up (Geek Mode 🚀)
-Create a GitHub repository (yourwebsite-repo).
-Add your HTML/CSS/JavaScript files to the repo.
-Push the code using git push origin main.
-Go to GitHub Settings → Pages and enable GitHub Pages.
-Register a custom domain and point it to GitHub.
-📌 Example: yourwebsite.com hosted on GitHub Pages with zero cost!
-
-2️⃣ Netlify + Custom Domain (Slightly More Modern) 🌐
-💡 Why?
-
-Free hosting with global CDN (fast loading)
-Continuous deployment with GitHub
-Can host advanced React, Vue, and Next.js projects
-CLI available (netlify deploy --prod)
-Supports serverless functions
-📌 Example: Deploy a modern React site for free with a custom domain.
-
-3️⃣ Self-Hosted WordPress.org on a VPS 🛠️
-💡 Why?
-
-Full root access to your server
-You manage Apache/Nginx, MySQL, PHP
-Customize with SSH, WP-CLI, cron jobs
-No limits—build custom themes/plugins
-📌 Example: Run a high-performance WordPress site on Ubuntu + Nginx for full control.
-
-🥇 Ultimate Geek Choice: GitHub Pages + Custom Domain
-It’s minimal, developer-centric, and 100% free. If you want extra power, add Netlify or a VPS later.
-
-🚀 Want a step-by-step guide to deploying? Let me know!
-
-The operation was aborted
-
-You said:
-can you help me set up my github pages
-ChatGPT said:
-Yes! I'll guide you through setting up GitHub Pages with a custom domain so you can host your own website for free. 🚀
-
-Step 1: Create a GitHub Repository
-Go to GitHub and log in.
-Click on "+" (New repository) in the top right corner.
-Name your repository something like yourwebsite.
-Set it to Public (so GitHub Pages can serve it).
-Check "Add a README" (optional).
-Click "Create repository".
-Step 2: Add Your Website Files
-Now, you need to upload your website files.
-
-Option 1: Upload Manually
-In your repository, click "Add file" > "Upload files".
-Upload your index.html (and any other files like style.css).
-Click Commit changes.
-Option 2: Use Git (Geeky Way)
-Open Terminal or Command Prompt and type:
-git clone https://github.com/your-username/yourwebsite.git
-cd yourwebsite
-Add your files:
-git add .
-git commit -m "Initial website"
-git push origin main
-Step 3: Enable GitHub Pages
-Go to Repository Settings.
-Scroll down to "Pages" (on the left sidebar).
-Under "Branch", select main and click Save.
-Wait a few minutes, then your site will be live at:
-https://your-username.github.io/yourwebsite/
-Step 4: Use a Custom Domain (Optional)
-If you want yourwebsite.com instead of your-username.github.io/yourwebsite/:
-
-Buy a domain from Namecheap, Google Domains, Cloudflare, etc..
-In your GitHub repo, create a file named CNAME (no extension).
-Inside CNAME, add your domain:
-yourwebsite.com
-Update your DNS settings in your domain provider:
-Add A records pointing to GitHub’s IPs:
-185.199.108.153
-185.199.109.153
-185.199.110.153
-185.199.111.153
-Add a CNAME record pointing to your-username.github.io.
-Step 5: Verify & Go Live
-Wait a few minutes for DNS to update.
-Visit yourwebsite.com to see your site live! 🎉
-Want Help?
-If you're stuck anywhere, let me know! I can walk you through each step. 🚀
-
-You said:
-can you help me create a website that looks like this one: http://tilmanification.com/
-
-ChatGPT said:
-Sure! The website Tilmanification is a minimalist, text-based, single-column blog-style website with a clean and retro aesthetic. It primarily consists of:
-
-✅ A simple layout (centered text, white background, black text).
-✅ A list of posts or links in a vertical column.
-✅ No images or heavy styling – just typography-driven design.
-✅ HTML + CSS-based (possibly generated via Markdown or Jekyll).
-
-🚀 Steps to Recreate It
-I'll create a basic HTML + CSS version of this site for you. Then, you can:
-
-Host it on GitHub Pages (free).
-Customize it with your own content.
-🖥️ Website Features
-Home Page: A list of blog posts or links.
-Blog Post Pages: Simple text-based pages.
-Minimalist Design: No images, fancy effects—just clean typography.
-I'll generate the base HTML & CSS now. One sec! ⏳
-
-This is a basic HTML + CSS minimalist website that mimics the Tilmanification aesthetic.
-
-How to Use It
-Save this file as index.html.
-Create separate post pages (e.g., post1.html, post2.html) with similar styling.
-Host it using GitHub Pages (or Netlify for free).
-Let me know if you need:
-
-Help setting up GitHub Pages.
-More styling adjustments.
-Additional pages (About, Contact, etc.).
-🚀 Let’s get your minimalist website online!
-
-You said:
-can you please use the same font, and same everything as the website i shared
-ChatGPT said:
-I've updated the website to closely match the Tilmanification style, using the Courier Prime font and adjusting the text layout, alignment, and spacing for a true minimalist, text-based feel.
-
-If you need any more refinements—such as exact margins, spacing, or additional tweaks—just let me know! 🚀
-
-You said:
-this is the source page of the main page of the website, can you help me create the same main page for my website?
-
-<!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Publications | Tilman Dingler</title>
-<meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Publications" />
-<meta name="author" content="Tilman Dingler" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Computer Scientist. Researcher. Educator." />
-<meta property="og:description" content="Computer Scientist. Researcher. Educator." />
-<link rel="canonical" href="/publications/" />
-<meta property="og:url" content="/publications/" />
-<meta property="og:site_name" content="Tilman Dingler" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Publications" />
-<script type="application/ld+json">
-{"author":{"@type":"Person","name":"Tilman Dingler"},"url":"/publications/","description":"Computer Scientist. Researcher. Educator.","@type":"WebPage","headline":"Publications","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Tilman Dingler" />
-</head>
-<body><header class="site-header">
-
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Tilman Dingler</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
-
-        <div class="trigger"><a class="page-link" href="/research/">Research</a><a class="page-link" href="/teaching/">Teaching</a><a class="page-link" href="/resources/">Resources</a><a class="page-link" href="/talks/">Talks</a><a class="page-link" href="/publications/">Publications</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">Publications</h1>
-  </header>
-
-  <div class="post-content">
-    <p>For now, please check my <a href="https://scholar.google.co.jp/citations?user=9l4xysIAAAAJ">Google Scholar Profile</a>.</p>
-
-  </div>
-
-</article>
-
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">Contact</h2>
-    <!-- <h2 class="footer-heading">Tilman Dingler</h2> -->
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Tilman Dingler</li>
-          <li><a class="u-email" href="mailto:tilman.dingler@unimelb.edu.au">tilman.dingler@unimelb.edu.au</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <p>Computer Scientist. Researcher. Educator.
-           <a href="/assets/pdf/CV-Dingler.pdf">Curriculum Vitae</a> |  
-           <a href="https://scholar.google.co.jp/citations?user=9l4xysIAAAAJ">Google Scholar</a>
-        </p>
-      </div>
-    </div>
-
-    <div class="social-links"><ul class="social-media-list"></ul>
-</div>
-
-  </div>
-
-</footer></body>
-
-</html>
-ChatGPT said:
-I've replicated the Tilmanification-style homepage for your website, keeping the same structure, navigation, and minimalist aesthetics.
-
-What’s Next?
-Customize It – Replace "My Name" and "myemail@example.com" with your details.
-Style It – The page links to style.css, so create a CSS file for further design tweaks.
-Host It – Use GitHub Pages, Netlify, or your preferred hosting service.
-Let me know if you need further refinements or deployment help! 🚀
-
-You said:
-i am refreshing the website page but it is still the same as the old one
-ChatGPT said:
-If you've uploaded your updated HTML file but the website is still showing the old version, try these troubleshooting steps:
-
-🔄 1. Hard Refresh Your Browser (Bypass Cache)
-Your browser may be caching the old page. Force refresh it:
-
-Windows/Linux: Press Ctrl + Shift + R
-Mac: Press Cmd + Shift + R
-Or, try opening the site in Incognito Mode.
-
-🌍 2. Check If GitHub Pages (or Hosting) Has Updated
-If you're hosting on GitHub Pages, updates sometimes take a few minutes to go live.
-
-Go to your GitHub repository.
-Click on Settings > Pages.
-Scroll down to see the deployed branch.
-Click "Save" again (to force redeployment).
-Wait a couple of minutes and refresh.
-📂 3. Ensure You Updated the Correct Files
-If your website is hosted on GitHub Pages, Netlify, or another platform, check:
-
-You uploaded the updated index.html file.
-If using Git, run:
-git status
-git add .
-git commit -m "Updated homepage"
-git push origin main
-If using Netlify, re-deploy by dragging the updated folder into Netlify.
-🔗 4. Check If You’re Viewing the Correct Domain
-If you recently set up a custom domain, it may take time for DNS to update. Try:
-
-Opening https://yourusername.github.io/your-repo/ (if using GitHub Pages).
-Opening https://yourwebsite.netlify.app/ (if using Netlify).
-🛠️ 5. Flush Local DNS Cache (If You Changed Domains)
-On Windows:
-
-ipconfig /flushdns
-On macOS:
-
-sudo dscacheutil -flushcache
-sudo killall -HUP mDNSResponder
-Then restart your browser and try again.
-
-🚀 Need More Help?
-Let me know:
-
-Where you're hosting the site (GitHub Pages, Netlify, etc.).
-If you see any errors in the browser console (F12 > Console).
-I'll help you fix it! 🔧🔥
-
-You said:
-ok it worked. please create a css page to make it look the same as this website: http://tilmanification.com/
-ChatGPT said:
-I've created a CSS file that closely matches the styling of Tilmanification:
-
-Uses Courier Prime for that retro, minimalist look.
-Centers the content while maintaining left-aligned text.
-Keeps navigation links simple and clean.
-Ensures unstyled black text with subtle underlines on hover.
-Matches the footer style with a thin top border.
-How to Use It:
-Save this file as style.css.
-Link it in your HTML inside the <head> section:
-<link rel="stylesheet" href="style.css">
-Refresh your page to see the changes.
-If you'd like any further refinements (spacing, font size, etc.), let me know! 🚀
-
-You said:
-please help me add the menu at the top with a very fine line underneath it
-ChatGPT said:
-​
-
-
-
-
-
-
-Search
-
-Deep research
-
-
-ChatGPT can make mistakes. Check important info.
-?
-
-
-Tilman Style
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
-50
-51
-52
-53
-54
-55
-56
-57
-58
-59
-60
-61
-62
-63
-64
-65
-66
-67
-68
-69
-70
-71
-72
-73
-74
-75
-76
-77
-78
-79
-80
-81
-82
-/* Base styling for the minimalist website */
-body {
-    font-family: 'Courier Prime', monospace;
-    font-size: 18px;
-    background-color: white;
-    color: black;
-    margin: 40px auto;
-    max-width: 650px;
-    line-height: 1.8;
-    text-align: left;
-}
-
-/* Header styling with fine underline */
-.site-header {
-    text-align: left;
-    font-size: 24px;
-    font-weight: normal;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid black; /* Fine underline */
-}
-
-.site-title {
-    text-decoration: none;
-    color: black;
-    font-size: 28px;
-    display: block;
-    margin-bottom: 5px;
-}
-
-.site-nav {
-    display: flex;
-    gap: 15px;
-}
-
-.site-nav .page-link {
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-}
-
-.site-nav .page-link:hover {
-    text-decoration: underline;
-}
-
-/* Content styling */
-.page-content {
-    margin-top: 40px;
-}
-
-.post-title {
-    font-size: 22px;
-    font-weight: normal;
-    margin-bottom: 10px;
-}
-
-.post-content a {
-    color: black;
-    text-decoration: underline;
-}
-
-.post-content a:hover {
-    text-decoration: none;
-}
-
-/* Footer */
-.site-footer {
-    margin-top: 60px;
-    padding-top: 20px;
-    border-top: 1px solid black;
-}
-
-.footer-heading {
-    font-size: 20px;
-    font-weight: normal;
-    margin-bottom: 10px;
-}
-
-.footer-col {
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-Ask ChatGPT to edit
+.highlight .c { color: #998; font-style: italic; }
+
+.highlight .err { color: #a61717; background-color: #e3d2d2; }
+
+.highlight .k { font-weight: bold; }
+
+.highlight .o { font-weight: bold; }
+
+.highlight .cm { color: #998; font-style: italic; }
+
+.highlight .cp { color: #999; font-weight: bold; }
+
+.highlight .c1 { color: #998; font-style: italic; }
+
+.highlight .cs { color: #999; font-weight: bold; font-style: italic; }
+
+.highlight .gd { color: #000; background-color: #fdd; }
+
+.highlight .gd .x { color: #000; background-color: #faa; }
+
+.highlight .ge { font-style: italic; }
+
+.highlight .gr { color: #a00; }
+
+.highlight .gh { color: #999; }
+
+.highlight .gi { color: #000; background-color: #dfd; }
+
+.highlight .gi .x { color: #000; background-color: #afa; }
+
+.highlight .go { color: #888; }
+
+.highlight .gp { color: #555; }
+
+.highlight .gs { font-weight: bold; }
+
+.highlight .gu { color: #aaa; }
+
+.highlight .gt { color: #a00; }
+
+.highlight .kc { font-weight: bold; }
+
+.highlight .kd { font-weight: bold; }
+
+.highlight .kp { font-weight: bold; }
+
+.highlight .kr { font-weight: bold; }
+
+.highlight .kt { color: #458; font-weight: bold; }
+
+.highlight .m { color: #099; }
+
+.highlight .s { color: #d14; }
+
+.highlight .na { color: #008080; }
+
+.highlight .nb { color: #0086B3; }
+
+.highlight .nc { color: #458; font-weight: bold; }
+
+.highlight .no { color: #008080; }
+
+.highlight .ni { color: #800080; }
+
+.highlight .ne { color: #900; font-weight: bold; }
+
+.highlight .nf { color: #900; font-weight: bold; }
+
+.highlight .nn { color: #555; }
+
+.highlight .nt { color: #000080; }
+
+.highlight .nv { color: #008080; }
+
+.highlight .ow { font-weight: bold; }
+
+.highlight .w { color: #bbb; }
+
+.highlight .mf { color: #099; }
+
+.highlight .mh { color: #099; }
+
+.highlight .mi { color: #099; }
+
+.highlight .mo { color: #099; }
+
+.highlight .sb { color: #d14; }
+
+.highlight .sc { color: #d14; }
+
+.highlight .sd { color: #d14; }
+
+.highlight .s2 { color: #d14; }
+
+.highlight .se { color: #d14; }
+
+.highlight .sh { color: #d14; }
+
+.highlight .si { color: #d14; }
+
+.highlight .sx { color: #d14; }
+
+.highlight .sr { color: #009926; }
+
+.highlight .s1 { color: #d14; }
+
+.highlight .ss { color: #990073; }
+
+.highlight .bp { color: #999; }
+
+.highlight .vc { color: #008080; }
+
+.highlight .vg { color: #008080; }
+
+.highlight .vi { color: #008080; }
+
+.highlight .il { color: #099; }
+
+html { font-size: 16px; }
+
+/** Reset some basic elements */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
+
+/** Basic styling */
+body { font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", "Segoe UI Symbol", "Segoe UI Emoji", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif; color: #111111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; overflow-wrap: break-word; }
+
+/** Set `margin-bottom` to maintain vertical rhythm */
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
+
+hr { margin-top: 30px; margin-bottom: 30px; }
+
+/** `main` element */
+main { display: block; /* Default value of `display` of `main` element is 'inline' in IE 11. */ }
+
+/** Images */
+img { max-width: 100%; vertical-align: middle; }
+
+/** Figures */
+figure > img { display: block; }
+
+figcaption { font-size: 14px; }
+
+/** Lists */
+ul, ol { margin-left: 30px; }
+
+li > ul, li > ol { margin-bottom: 0; }
+
+/** Headings */
+h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+
+/** Links */
+a { color: #2a7ae2; text-decoration: none; }
+
+a:visited { color: #1756a9; }
+
+a:hover { color: #111111; text-decoration: underline; }
+
+.social-media-list a:hover, .pagination a:hover { text-decoration: none; }
+
+.social-media-list a:hover .username, .pagination a:hover .username { text-decoration: underline; }
+
+/** Blockquotes */
+blockquote { color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px; font-size: 1.125rem; font-style: italic; }
+
+blockquote > :last-child { margin-bottom: 0; }
+
+blockquote i, blockquote em { font-style: normal; }
+
+/** Code formatting */
+pre, code { font-family: "Menlo", "Inconsolata", "Consolas", "Roboto Mono", "Ubuntu Mono", "Liberation Mono", "Courier New", monospace; font-size: 0.9375em; border: 1px solid #e8e8e8; border-radius: 3px; background-color: #eeeeff; }
+
+code { padding: 1px 5px; }
+
+pre { padding: 8px 12px; overflow-x: auto; }
+
+pre > code { border: 0; padding-right: 0; padding-left: 0; }
+
+.highlight { border-radius: 3px; background: #eeeeff; }
+
+.highlighter-rouge .highlight { background: #eeeeff; }
+
+/** Wrapper */
+.wrapper { max-width: calc(800px - (30px)); margin-right: auto; margin-left: auto; padding-right: 15px; padding-left: 15px; }
+
+@media screen and (min-width: 800px) { .wrapper { max-width: calc(800px - (30px * 2)); padding-right: 30px; padding-left: 30px; } }
+
+/** Clearfix */
+.wrapper:after { content: ""; display: table; clear: both; }
+
+/** Icons */
+.orange { color: #f66a0a; }
+
+.grey { color: #828282; }
+
+.svg-icon { width: 16px; height: 16px; display: inline-block; fill: currentColor; padding: 5px 3px 2px 5px; vertical-align: text-bottom; }
+
+/** Tables */
+table { margin-bottom: 30px; width: 100%; text-align: left; color: #3f3f3f; border-collapse: collapse; border: 1px solid #e8e8e8; }
+
+table tr:nth-child(even) { background-color: #f7f7f7; }
+
+table th, table td { padding: 10px 15px; }
+
+table th { background-color: #f0f0f0; border: 1px solid #e0e0e0; }
+
+table td { border: 1px solid #e8e8e8; }
+
+@media screen and (max-width: 800px) { table { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; -ms-overflow-style: -ms-autohiding-scrollbar; } }
+
+/** Site header */
+.site-header { border-top: 5px solid #424242; border-bottom: 1px solid #e8e8e8; min-height: 55.95px; line-height: 54px; position: relative; }
+
+.site-title { font-size: 1.625rem; font-weight: 300; letter-spacing: -1px; margin-bottom: 0; float: left; }
+
+@media screen and (max-width: 600px) { .site-title { padding-right: 45px; } }
+
+.site-title, .site-title:visited { color: #424242; }
+
+.site-nav { position: absolute; top: 9px; right: 15px; background-color: #fdfdfd; border: 1px solid #e8e8e8; border-radius: 5px; text-align: right; }
+
+.site-nav .nav-trigger { display: none; }
+
+.site-nav .menu-icon { float: right; width: 36px; height: 26px; line-height: 0; padding-top: 10px; text-align: center; }
+
+.site-nav .menu-icon > svg path { fill: #424242; }
+
+.site-nav label[for="nav-trigger"] { display: block; float: right; width: 36px; height: 36px; z-index: 2; cursor: pointer; }
+
+.site-nav input ~ .trigger { clear: both; display: none; }
+
+.site-nav input:checked ~ .trigger { display: block; padding-bottom: 5px; }
+
+.site-nav .page-link { color: #111111; line-height: 1.5; display: block; padding: 5px 10px; margin-left: 20px; }
+
+.site-nav .page-link:not(:last-child) { margin-right: 0; }
+
+@media screen and (min-width: 600px) { .site-nav { position: static; float: right; border: none; background-color: inherit; } .site-nav label[for="nav-trigger"] { display: none; } .site-nav .menu-icon { display: none; } .site-nav input ~ .trigger { display: block; } .site-nav .page-link { display: inline; padding: 0; margin-left: auto; } .site-nav .page-link:not(:last-child) { margin-right: 20px; } }
+
+/** Site footer */
+.site-footer { border-top: 1px solid #e8e8e8; padding: 30px 0; }
+
+.footer-heading { font-size: 1.125rem; margin-bottom: 15px; }
+
+.feed-subscribe .svg-icon { padding: 5px 5px 2px 0; }
+
+.contact-list, .social-media-list, .pagination { list-style: none; margin-left: 0; }
+
+.footer-col-wrapper, .social-links { font-size: 0.9375rem; color: #828282; }
+
+.footer-col { margin-bottom: 15px; }
+
+.footer-col-1, .footer-col-2 { width: calc(50% - (30px / 2)); }
+
+.footer-col-3 { width: calc(100% - (30px / 2)); }
+
+@media screen and (min-width: 800px) { .footer-col-1 { width: calc(35% - (30px / 2)); } .footer-col-2 { width: calc(20% - (30px / 2)); } .footer-col-3 { width: calc(45% - (30px / 2)); } }
+
+@media screen and (min-width: 600px) { .footer-col-wrapper { display: flex; } .footer-col { width: calc(100% - (30px / 2)); padding: 0 15px; } .footer-col:first-child { padding-right: 15px; padding-left: 0; } .footer-col:last-child { padding-right: 0; padding-left: 15px; } }
+
+/** Page content */
+.page-content { padding: 30px 0; flex: 1 0 auto; }
+
+.page-heading { font-size: 2rem; }
+
+.post-list-heading { font-size: 1.75rem; }
+
+.post-list { margin-left: 0; list-style: none; }
+
+.post-list > li { margin-bottom: 30px; }
+
+.post-meta { font-size: 14px; color: #828282; }
+
+.post-link { display: block; font-size: 1.5rem; }
+
+/** Posts */
+.post-header { margin-bottom: 30px; }
+
+.post-title, .post-content h1 { font-size: 2.625rem; letter-spacing: -1px; line-height: 1.15; }
+
+@media screen and (min-width: 800px) { .post-title, .post-content h1 { font-size: 2.625rem; } }
+
+.post-content { margin-bottom: 30px; }
+
+.post-content h1, .post-content h2, .post-content h3 { margin-top: 60px; }
+
+.post-content h4, .post-content h5, .post-content h6 { margin-top: 30px; }
+
+.post-content h2 { font-size: 1.75rem; }
+
+@media screen and (min-width: 800px) { .post-content h2 { font-size: 2rem; } }
+
+.post-content h3 { font-size: 1.375rem; }
+
+@media screen and (min-width: 800px) { .post-content h3 { font-size: 1.625rem; } }
+
+.post-content h4 { font-size: 1.25rem; }
+
+.post-content h5 { font-size: 1.125rem; }
+
+.post-content h6 { font-size: 1.0625rem; }
+
+.social-media-list, .pagination { display: table; margin: 0 auto; }
+
+.social-media-list li, .pagination li { float: left; margin: 5px 10px 5px 0; }
+
+.social-media-list li:last-of-type, .pagination li:last-of-type { margin-right: 0; }
+
+.social-media-list li a, .pagination li a { display: block; padding: 7.5px; border: 1px solid #e8e8e8; }
+
+.social-media-list li a:hover, .pagination li a:hover { border-color: #dbdbdb; }
+
+/** Pagination navbar */
+.pagination { margin-bottom: 30px; }
+
+.pagination li a, .pagination li div { min-width: 41px; text-align: center; box-sizing: border-box; }
+
+.pagination li div { display: block; padding: 7.5px; border: 1px solid transparent; }
+
+.pagination li div.pager-edge { color: #e8e8e8; border: 1px dashed; }
+
+/** Grid helpers */
+@media screen and (min-width: 800px) { .one-half { width: calc(50% - (30px / 2)); } }
+
+.post-content h3 { margin-top: 20px; }
+
+.img_scale { height: 200px; float: right; margin-left: 20px; }
+
+.research_icon_left { height: 50px; float: left; margin-right: 20px; margin-top: 5px; }
+
+.research_icon_right { height: 50px; float: right; margin-left: 20px; margin-top: 5px; }
+
+.scale_50 { max-width: 50%; margin-left: 20px; float: right; }
+
+.margin_top { margin-top: 40px; }
+
+/*# sourceMappingURL=style.css.map */
