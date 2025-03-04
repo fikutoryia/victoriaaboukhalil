@@ -1,0 +1,78 @@
+/* Base styling for the minimalist website */
+body {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18px;
+    background-color: white;
+    color: black;
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.8;
+    text-align: left;
+}
+
+/* Header styling */
+.site-header {
+    text-align: left;
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.site-title {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+.site-nav {
+    margin-top: 10px;
+}
+
+.site-nav .page-link {
+    text-decoration: none;
+    color: black;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.site-nav .page-link:hover {
+    text-decoration: underline;
+}
+
+/* Content styling */
+.page-content {
+    margin-top: 40px;
+}
+
+.post-title {
+    font-size: 22px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.post-content a {
+    color: black;
+    text-decoration: underline;
+}
+
+.post-content a:hover {
+    text-decoration: none;
+}
+
+/* Footer */
+.site-footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.footer-col {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
